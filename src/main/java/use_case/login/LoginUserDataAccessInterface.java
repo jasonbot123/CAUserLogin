@@ -41,6 +41,6 @@ public interface LoginUserDataAccessInterface {
      *
      * @return the username of the current user, or {@code null} if no user is logged in.
      */
-    String getUsername();
 
+    String getCurrentUser();
 }
